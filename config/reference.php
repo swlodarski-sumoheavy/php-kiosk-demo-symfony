@@ -1,5 +1,4 @@
 <?php
-// phpcs:ignoreFile
 
 // This file is auto-generated and is for apps only. Bundles SHOULD NOT rely on its content.
 
@@ -1036,7 +1035,7 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  *             use_underscore?: bool|Param, // Default: true
  *             unordered_list_markers?: list<scalar|Param|null>,
  *         },
- *         ...<mixed>
+ *         ...<string, mixed>
  *     },
  * }
  * @psalm-type SecurityConfig = array{
